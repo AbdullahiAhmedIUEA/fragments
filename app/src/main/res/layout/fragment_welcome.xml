@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Fragments" />
+
+    <Button
+        android:id="@+id/navigate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me!" />
+
+    <!-- Button to navigate to ItemListFragment -->
+    <Button
+        android:id="@+id/buttonNavigateToItemList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Item List" />
+
+</LinearLayout>

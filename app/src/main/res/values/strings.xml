@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">fragments</string>
+    <string name="welcome_to_fragments">Welcome to Fragments</string>
+    <string name="add_item">Add Item</string>
+    <string name="no_items">No items</string>
+    <string name="button_clicked">string</string>
+
+</resources>
